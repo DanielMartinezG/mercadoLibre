@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BuscarItemsComponent } from './buscar-items.component';
+import { BuscarItemsComponent } from './mercado-libre.component';
 
 describe('BuscarItemsComponent', () => {
   let component: BuscarItemsComponent;

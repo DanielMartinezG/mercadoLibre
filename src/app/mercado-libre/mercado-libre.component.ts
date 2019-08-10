@@ -6,8 +6,8 @@ import { itemsInterface } from '../interfaces/itemsInterface';
 
 @Component({
   selector: 'app-buscar-items',
-  templateUrl: './buscar-items.component.html',
-  styleUrls: ['./buscar-items.component.css']
+  templateUrl: './mercado-libre.component.html',
+  styleUrls: ['./mercado-libre.component.css']
 })
 export class BuscarItemsComponent implements OnInit {
 

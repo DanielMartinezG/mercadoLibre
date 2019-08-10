@@ -7,7 +7,7 @@
     <div class="row">
         <form #filtro="ngForm">
         <div class="col s8">
-          <input type="text" name="filtro" placeholder="Ingrese Busqueda" name="busqueda" [(ngModel)]="buscar"> 
+          <input class="center-text" type="text" name="filtro" placeholder="Ingrese Busqueda" name="busqueda" [(ngModel)]="buscar"> 
           
         </div>
         <div class="col s3">
@@ -23,7 +23,7 @@
                <span class="card-title">{{item.itemName}}</span>
                <img src="{{item.itemImg}}" alt=""><br>
                <span class="blue-text text-darken-2">${{item.itemCost}}</span><br>
-               <span class = "seller">Seller {{item.sellerName}}</span> 
+               <span class = "seller"><b>Seller</b> {{item.sellerName}}</span> 
             </div>
         </div>
     </div>

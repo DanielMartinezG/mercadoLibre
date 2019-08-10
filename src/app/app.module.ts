@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ItemsService } from './services/items.service';
-import { BuscarItemsComponent } from './buscar-items/buscar-items.component';
+import { BuscarItemsComponent } from './mercado-libre/mercado-libre.component';
 import { FormsModule } from '@angular/forms'
 
 
